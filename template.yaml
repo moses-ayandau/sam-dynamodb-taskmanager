@@ -17,7 +17,6 @@ Resources:
       Tags:
         - Key: Application
           Value: TodoApp
-# Outputs
 Outputs:
   TodoTableName:
     Description: "Name of the DynamoDB table"
