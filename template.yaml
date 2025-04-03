@@ -6,7 +6,7 @@ Resources:
   TodoTable:
     Type: AWS::DynamoDB::Table
     Properties:
-      TableName: Todo
+      TableName: Todos
       BillingMode: PAY_PER_REQUEST
       AttributeDefinitions:
         - AttributeName: id
